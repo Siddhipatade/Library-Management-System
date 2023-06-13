@@ -1,42 +1,59 @@
 # Library Management System
 
-This is a simple library management system implemented in Java. It provides a graphical user interface (GUI) for managing books in a library. The program allows users to add, view, edit, and delete book information.
+This is a simple Library Management System implemented in Java Swing. It allows users to add, view, edit, and delete books from the library.
 
 ## Features
 
-- Add books: Users can enter book details such as ID, title, author, publisher, year of publication, ISBN, and number of copies. The entered information is stored in memory.
-- View books: Users can view the list of books in a table format. The table displays the book ID, title, author, publisher, year of publication, ISBN, and number of copies.
-- Edit books: Users can edit the information of existing books by entering the book ID. If the book is found, its details are updated with the new values provided by the user.
-- Delete books: Users can delete a book from the library by entering its book ID. If the book is found, it is removed from the list of books.
-- Clear fields: Users can clear all the input fields to start fresh.
+- Add a book with details such as book ID, title, author, publisher, year of publication, ISBN, and number of copies.
+- View all the books in a table format.
+- Edit the details of a book by entering the book ID.
+- Delete a book by entering the book ID.
+- Clear all the input fields.
+- Exit the application.
 
-## Getting Started
+## Prerequisites
 
-### Prerequisites
+- Java Development Kit (JDK) installed on your system.
+- Any Java IDE or text editor.
 
-To run this program, you need to have the following software installed:
+## How to Run
 
-- Java Development Kit (JDK)
-- Java Runtime Environment (JRE)
+1. Clone the repository or download the source code files.
+2. Open the project in your preferred Java IDE.
+3. Build and run the `LibraryManagement.java` file.
+4. The Library Management System application will open in a window.
 
-### Running the Program
+## Usage
 
-1. Clone this repository to your local machine or download the source code as a ZIP file.
-2. Open a command prompt or terminal and navigate to the project directory.
-3. Compile the Java source code by executing the following command:
+1. Add a Book:
+   - Enter the details of the book in the respective input fields.
+   - Click the "Add" button to add the book to the library.
+   - A success message will be displayed, and the fields will be cleared.
 
-        javac Library_management.java
-      
-4. Run the program using the following command:
-      
-        java Library_management
- 
-5. The library management system GUI will appear, allowing you to interact with it.
+2. View Books:
+   - Click the "View" button to see all the books in a table format.
+   - The table displays the book ID, title, author, publisher, year of publication, ISBN, and number of copies.
+
+3. Edit a Book:
+   - Click the "Edit" button.
+   - Enter the book ID of the book you want to edit.
+   - Modify the details in the input fields.
+   - Click the "Edit" button again to save the changes.
+   - A success message will be displayed, and the fields will be cleared.
+
+4. Delete a Book:
+   - Click the "Delete" button.
+   - Enter the book ID of the book you want to delete.
+   - Click the "Delete" button again to confirm the deletion.
+   - A success message will be displayed, and the fields will be cleared.
+
+5. Clear Fields:
+   - Click the "Clear" button to clear all the input fields.
+
+6. Exit the Application:
+   - Click the "Exit" button to close the application.
 
 ## Contributing
 
-Contributions to this project are welcome. If you have any suggestions, bug fixes, or new features, feel free to open an issue or submit a pull request.
+Contributions to the Library Management System are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue.
 
-## Acknowledgments
-
-- The code is developed based on the concepts of Java Swing and event-driven programming.
