@@ -53,6 +53,12 @@ This is a simple Library Management System implemented in Java Swing. It allows 
 6. Exit the Application:
    - Click the "Exit" button to close the application.
 
+# Screenshot
+
+![image](https://github.com/Siddhipatade/Library-Management-System/assets/91780318/5ff6004d-56ac-4d89-83e8-413bb0ee74bb)
+
+![image](https://github.com/Siddhipatade/Library-Management-System/assets/91780318/bcfd8e89-3b3f-4fb2-ada1-bfc4df5f1fb1)
+
 ## Contributing
 
 Contributions to the Library Management System are welcome! If you find any issues or have suggestions for improvements, please feel free to submit a pull request or open an issue.
